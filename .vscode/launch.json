@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Snowfall}",
+            "name": "Debug Snowfall",
+            "target": "Snowfall",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Snowfall"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Snowfall}",
+            "name": "Release Snowfall",
+            "target": "Snowfall",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Snowfall"
+        }
+    ]
+}
